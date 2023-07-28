@@ -1,0 +1,87 @@
+
+    .uber-button{
+        background-color: black;
+        color: white;
+        border: none;
+        height: 25px;
+        width: 90px;
+        margin-top: 20 px;
+    }
+
+    .add-button{
+        background-color: rgb(255, 216, 20)   ;
+        border-radius: 10px;
+        border: none;
+        width: 145px;
+        height: 25;
+    }
+
+    .git-button{
+        background-color: rgb(46, 164, 79);
+        color: white;
+        font: bold;
+        border: none;
+        border-radius: 4px;
+        height: 25px;
+        width: 60px;
+    }
+
+    .p1{
+        font-size: 28px;
+    }
+
+    .p3{
+        color: rgb(0, 118, 0);
+    }
+    .add{
+        background-color: rgb(255, 216, 20);
+        border: none;
+        border-radius: 10px;
+        height: 20px;
+        width: 115px;
+    }
+
+    .buy-button{
+        background-color: rgb(255, 164, 28 );
+        border: none;
+        border-radius: 10px;
+        height: 20px;
+        width: 115px;
+    }
+
+    .font-type{
+        font-family: Tahoma;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .verdana{
+        font-family: Verdana;
+        font-size: 15px;
+        font-weight: bold;
+        margin-bottom: 0;
+    }
+
+    .BP{
+        font-size: 11px;
+        color: gray;
+        font-family: Verdana;
+        margin-top: 2px;
+        margin-bottom: 10px;
+    }
+
+    .bp-body{
+        width: 230px;
+        font-family: verdana;
+        font-size: 11px;
+        margin-top: 5px;
+    }
+
+    .button-getStarted{
+        color: white;
+        background: green;
+        border: none;
+        border-radius: 4px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }

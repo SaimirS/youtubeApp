@@ -1,0 +1,80 @@
+ /*This style applies to all paragraphs it targets the Fonts in all paragraphs and changes them to Arial without having to add font-family on all styles separately*/
+ p {
+    font-family: arial;
+    /*This part targets all the margins for all styles below same as font type*/
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.video-title{
+    /* change the font type*/
+    font-family: Arial;
+    /* font size */
+    font-size: 18px;
+    /* to make it bold*/
+    font-weight: bold;
+    /*to make it italic*/
+    /*font-style: italic;*/
+    /*to center text */
+   /* text-align: center;*/
+    /* to wrap text and force it to a second line if its too long*/
+    width: 280px;
+    /* To adjust spacing between lines*/
+    line-height: 24px;
+    margin-bottom: 5;
+}
+
+.video-stats{
+    /*font-family: Arial;*/
+    font-size: 14px;
+    color: rgb(96,96,96);
+    /*margin-top: 0;*/
+    margin-bottom: 20px;
+   
+}
+
+.video-author{
+    /*font-family: Arial;*/
+    color: rgb(96,96,96);
+    font-size: 14px;
+    /*margin-top: 0;*/
+    /*css specificity this means if we have multiple lines as width a property theres a priority that the browser folllows so in this case this style has more priorty and this selector here is targeted by the class (selector is the class of the element)*/
+    margin-bottom: 20px;
+}
+
+.video-description{
+    /*font-family: Arial;*/
+    font-size: 14px;
+    color: rgb(96,96,96);
+    width: 270px;
+    line-height: 22px;
+    /*margin-top: 0;*/
+    margin-bottom: 100px;
+}
+
+.apple-text{
+    margin-bottom: 50px;
+    font-size: 14px;
+    color: white;
+    background-color: rgb(227, 65, 64);
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.span-example{
+    color: red;
+    /*this is how we add multiple spaces between our words instead of typing space on the text as it doesnt register it*/
+    margin-left: 12px;
+}
+
+.span-example:hover{
+    text-decoration: underline;
+}
+
+.shop-link{
+    cursor: pointer;
+}
+
+.shop-link:hover{
+    text-decoration: underline;
+}

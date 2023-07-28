@@ -1,0 +1,82 @@
+
+    .subscribe-button{
+        /* Left of the css is CSS property (Ex. such as background-color (blue text it tells the computer what we are changing)) and right side  is the CSS value tells the computer what we are changing the property to (Ex background color red)*/
+        background-color: rgb(200, 0, 0);
+        color: white;
+        border: none;
+        /*border-radius creates round borders the higher the pixel the rounder the border*/
+        border-radius: 2px;
+        cursor: pointer;
+        /*margin is to add space outside of the border (adds space outside of the element)*/
+        margin-right: 8px;
+        /* transition takes two values first what we want to transition in this case we want the opacity to fade smoothly instead of being instant and the second value is how long this transition will take*/
+        transition: opacity 0.15s;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 16px;
+        padding-right: 16px;
+        /*this aligns everything to the top*/
+        vertical-align: top;
+    }
+    /*the :hover pseudo class means it will hover only when we move our crusor over the button */
+    .subscribe-button:hover{
+        /*opacity addss the fade effect and it can be from 0 to 1*/
+        opacity: 0.8;
+    }
+    /*this pseudo class is active only when we click the button*/
+    .subscribe-button:active {
+    opacity: 0.4;
+    }
+
+    .join-button:hover{
+        background-color: rgb(6, 95, 212);
+        color: white;
+    }
+
+    .join-button:active{
+        opacity: 0.7;
+    }
+
+
+    .join-button{
+        background-color: white;
+        color: rgb(41, 118, 211);
+        border-color: rgb(6, 95, 212);
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 2px;
+        cursor: pointer;
+        transition: background-color 0.15s, color 0.15s;
+        /*padding adds spcae inside the element (inside the border)*/
+        padding-left: 16px;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        padding-right: 16px;
+        vertical-align: top;
+        
+    }
+
+    .tweet-button{
+        background-color: rgb(2, 137, 255);
+        color: white;
+        border: none;
+        /* height: 36px;
+        width: 70px; */
+        /*to get the right round border we usually use half of the Pixel size from either Height or width which ever is lower we devide that one */
+        border-radius: 18px;
+        font-weight: bold;
+        font-size: 15px;
+        cursor: pointer;
+        margin-left: 8px;
+        transition: box-shadow 0.15s;
+        vertical-align: top;
+        padding-left: 14px;
+        padding-top: 9px;
+        padding-right: 14px;
+        padding-bottom: 9px;
+    }
+
+    .tweet-button:hover{
+        /* box-shadow creates shadows and takes four values such as ( 0 0 0 black) first 0px is for the right side second for down and the third is for the blur*/ 
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    }
